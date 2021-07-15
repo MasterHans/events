@@ -38,5 +38,6 @@ tests/_support/_generated
 /web
 /widget
 /config
+!/config/web.php
 /assets
 /.idea
