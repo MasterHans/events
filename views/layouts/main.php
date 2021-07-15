@@ -39,7 +39,8 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Главная', 'url' => ['/site/index']],
-            ['label' => 'Корзина', 'url' => ['/cart']],
+            ['label' => 'Тест события встроенное в ActiveRecord', 'url' => ['/site/test']],
+            ['label' => 'Тест события пользовательское', 'url' => ['/site/test-new']],
         ],
     ]);
     NavBar::end();
